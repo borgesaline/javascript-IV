@@ -1,4 +1,3 @@
-const comidas = ['salgadinho', 'crepe', 'bolo' ]
 const comidas = ['Lasanha', 'Batata', 'Bacon']
 
 console.log(comidas[2])
@@ -12,10 +11,10 @@ console.log(`comidas`, comidas);
 console.log(`outras comidas`, outrasComidas);
 
     console.log(`Na posição ${posicao} temos a comida: ${comida}`)
-})
+
 
 // concat faz copia do arary e adiciona o elemento que a gente passa como argumento
-let outrasComidas = comidas.concat("Jiló")
+let outrasComidas = comidas.conat("Jiló")
 console.log('comidas', comidas) 
 console.log('outras comidas', outrasComidas)
 
@@ -67,15 +66,15 @@ console.log(comidas.indexOf("Batata"))
 console.log(comidas.lastIndexOf("Batata"))
 // Não encontrou
 console.log(comidas.indexOf("Brocolis"))
-
+ 
 let mapArray = comidas.map((comida)=> `${comida} Gostosa`)
-console.log(mapArray)
+console.log(mapArray) 
 let teste = comidas.forEach((comida)=> `${comida} boa`)
 console.log(teste)
-const numeros = [1, 2, 3, 4, 5]
+const numeros = [1, 2, 3, 4, 5]    
 let numerosDobrados = numeros.map((numero)=>numero*2)
 console.log(numerosDobrados)
-
+ 
 let arrayProcura = comidas.filter((comida)=> comida === 'Batata')
 console.log(arrayProcura)
 
