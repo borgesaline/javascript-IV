@@ -16,13 +16,8 @@ const nomesNoRole =['Adriana',
 'Lia',
 'Marcela',
 'Monique',
-<<<<<<< HEAD
-'Priscilla Roiz',
-'Priscilla Alves',
-=======
 'Roiz',
 'Priscilla Soares Alves',
->>>>>>> upstream/aula2
 'Raissa',
 'Raquel',
 'Romênia',
@@ -34,11 +29,6 @@ const nomesNoRole =['Adriana',
 'Thaís',
 'Valdeniza']
 
-<<<<<<< HEAD
-document.getElementById('fora-do-role').addEventListener('submit', function (event) {
-    
-})
-=======
 const validacao = (nome) => {
     if(nome.trim() === '') throw 'O campo está vazio'
 }
@@ -78,4 +68,3 @@ document.getElementById('form-do-role').addEventListener('submit', function(even
 
 
 })
->>>>>>> upstream/aula2
